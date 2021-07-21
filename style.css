@@ -1,0 +1,78 @@
+.container {
+  position: relative;
+  height: 355px;
+  width: 800px;
+  border: 3px solid rgb(187, 187, 187);
+  margin: 50px 250px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.banner {
+  background-color: teal;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+}
+
+.user-circle img {
+  height: 125px;
+  width: 125px;
+  position: absolute;
+  top: 40px;
+  left: 25px;
+}
+
+.user-name {
+  position: absolute;
+  top: 140px;
+  left: 25px;
+  font-weight: 800;
+}
+
+.location {
+  position: absolute;
+  top: 190px;
+  left: 25px;
+}
+
+.location img {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+}
+.location h2 {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.skills {
+  position: absolute;
+  top: 245px;
+  left: 25px;
+  font-size: 20px;
+}
+
+.skills p {
+  font-weight: 900;
+  margin: 0;
+}
+
+.edit {
+  position: absolute;
+  display: inline-block;
+  top: 295px;
+  left: 25px;
+}
+
+.edit img {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  position: absolute;
+}
+
+.edit a {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 25px;
+}
